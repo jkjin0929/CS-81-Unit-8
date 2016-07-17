@@ -1,0 +1,17 @@
+//Joseph Jin
+//CS 81
+//Unit 8
+//Chapter 6
+//Problem #3
+
+3. The temperature converter code in Section 6.1.2 (among other examples) uses input elements whose type is button for clickable buttons within the web page. These elements get their labels through their value attributes. An alternative element called button can also be used to create clickable buttons. Their temperature converter equivalents would look like this:
+
+	<button id = ¡°f_to_c¡±>F to C</button>
+	<button id = ¡°c_to_f¡±>C to F</button>
+
+(a) Modify the temperature converter code so that it uses buttons that are defined with these elements. Beyond the HTML tags, does anything else need to change?
+Answer: nothing else has to change as long as you have the right button id for the function
+see unit 8 6-3.html & unit 8 6-3.js
+
+(b) Can you think of a functional difference between the two button-creating elements? (Hint: Take a close look at how each tag defines the different aspects of a button.) Do some Internet research to find the definitive answer.
+Answer: After doing some research, it seems button element caused some issues with some browsers like IE6, IE7, etc. A functional difference between the two button-creating elements is button element submits text between <button></button> to different types of value, depending on which browser you are using, when input type element specifies exactly what type of value is being used.
